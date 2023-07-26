@@ -31,6 +31,20 @@ const getTask=async (req,res)=>{
 }
 
 
+const getFull=async (req,res)=>{
+    try{
+        const task=await taskkk.find({});
+        res.status(200).json(task)
+
+    }
+    catch(e){
+        res.status(400).json({
+            error:e
+        })
+    }
+}
 
 
-module.exports={createtask,getTask}
+
+
+module.exports={createtask,getTask,getFull}
