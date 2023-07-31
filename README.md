@@ -44,7 +44,7 @@ The API provides the following endpoints:
 
 1 GET&POST /work/thiru - Retrieve all items from the database.
 
-2 GET /work/thiru/api?id=('Type here the number you want 1-10') - Retrieve a specific item by ID.
+2 GET /work/thiru/api?id=('Type here the number you want 1-1330') - Retrieve a specific item by ID.
 ## Data schema
 
 The MongoDB Atlas database contains the following data schema:
@@ -90,4 +90,4 @@ The API handles errors gracefully and provides appropriate error responses in ca
 
 link 1: https://api-production-f819.up.railway.app/work/thiru
 
-link 2: https://api-production-f819.up.railway.app/work/thiru/api?id= "Type here the number you want (1-10)"
+link 2: https://api-production-f819.up.railway.app/work/thiru/api?id= "Type here the number you want (1-1330)"
