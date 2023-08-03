@@ -3,8 +3,7 @@
 
 This API allows users to retrieve Thirukkural verses and related information programmatically, enabling seamless integration of the timeless verses into various applications, websites, and digital platforms. By leveraging this API, developers can harness the rich cultural heritage of the Thirukkural to enhance their products with valuable insights and life lessons. 
 
-
-## Installation
+# Installation
 
 __Prerequisites:__ 
 Before running the project, ensure you have the following prerequisites.
@@ -35,17 +34,16 @@ Follow these steps to get the project up and running.
   npm Start
 ```
 5 The API server should now be running on http://localhost:4000
-      
-
-    
-## Endpoints
+          
+# Endpoints
 
 The API provides the following endpoints:
 
 1 GET&POST /work/thiru - Retrieve all items from the database.
 
 2 GET /work/thiru/api?id=('Type here the number you want 1-1330') - Retrieve a specific item by ID.
-## Data schema
+
+# Data schema
 
 The MongoDB Atlas database contains the following data schema:
 
@@ -66,18 +64,18 @@ The MongoDB Atlas database contains the following data schema:
     }
 },{timestamps:true}
 ```
-## Error Handling
+
+# Error Handling
 
 The API handles errors gracefully and provides appropriate error responses in case of invalid requests or server issues.
-## Security
+
+# Security
 
 1 Authentication: This API does not include authentication for simplicity. In production, make sure to implement proper authentication mechanisms to secure your endpoints.
 
 2 Authorization: Ensure that only authorized users can access certain endpoints or perform specific actions.
 
-
-
-## Dependencies
+# Dependencies
 
 1 Express.js: A minimalist Node.js web application framework.
 
@@ -86,7 +84,8 @@ The API handles errors gracefully and provides appropriate error responses in ca
 3 Body-parser: Middleware for parsing request bodies.
 
 4 Cors: Middleware for handling Cross-Origin Resource Sharing  (CORS) issues.
-## Link for hosted api
+
+# Link for hosted api
 
 link 1: https://api-production-f819.up.railway.app/work/thiru
 
