@@ -26,7 +26,7 @@ Follow these steps to get the project up and running.
 ```
 3 Configure MongoDB Atlas Connection :
 
-- Open config.js in the project root directory.
+- Open .env in the project root directory.
 - Replace <YOUR_MONGODB_ATLAS_CONNECTION_STRING> with your actual MongoDB Atlas connection string.
 
 4 Start the Server :
