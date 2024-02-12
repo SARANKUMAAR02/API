@@ -87,6 +87,5 @@ The API handles errors gracefully and provides appropriate error responses in ca
 
 # Link for hosted api
 
-link 1: https://api-production-f819.up.railway.app/work/thiru
-
-link 2: https://api-production-f819.up.railway.app/work/thiru/api?id= "Type here the number you want (1-1330)"
+link 1: https://thirukkural-9382.onrender.com/work/thiru
+link 2: https://thirukkural-9382.onrender.com/work/thiru/api?id= "Type here the number you want (1-1330)"
